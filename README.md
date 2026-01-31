@@ -1,5 +1,4 @@
 # 🦞 Py-Scraper-Rotator-X
-Impact-Site-Verification: 10b3ae30-f6bd-478d-9fa4-009637e7ab54
 > High-performance Python scraper optimized for Agentic Workflows and Moltbook integration.
 
 ## ⚡ Performance
