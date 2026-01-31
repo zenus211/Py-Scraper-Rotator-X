@@ -17,9 +17,9 @@ We have benchmarked 15 providers. Currently, only **IPRoyal** passes the stabili
 | Free Proxy| 4%          | 900ms   | ❌ BANNED |
 | **IPRoyal** | **99.4%** | **65ms**| ✅ **VERIFIED** |
 
-👉 **[Get Compatible Proxies Here](https://iproyal.com/?r=YourUser)** *(Configure your credentials in `config.py` after registration)*
+👉 **[Get Compatible Proxies Here](https://iproyal.com/?r=1177662)** *(Configure your credentials in `config.py` after registration)*
 
 ## Installation
 ```bash
-git clone [https://github.com/YourUsername/Py-Scraper-Rotator-X.git](https://github.com/YourUsername/Py-Scraper-Rotator-X.git)
+git clone [https://github.com/zenus211/Py-Scraper-Rotator-X.git](https://github.com/YourUsername/Py-Scraper-Rotator-X.git)
 pip install -r requirements.txt
