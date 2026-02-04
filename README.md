@@ -34,8 +34,23 @@ When behavioral heuristics trigger a challenge (Turnstile / hCaptcha), the scrip
 👉 **[Get Solver API Key Here](https://2captcha.com/?from=27481807)**
 *(Prevents thread termination on challenge pages)*
 
-## 🛠️ Installation
-```bash
-git clone [https://github.com/zenus211/Py-Scraper-Rotator-X.git](https://github.com/zenus211/Py-Scraper-Rotator-X.git)
-cd Py-Scraper-Rotator-X
-pip install -r requirements.txt
+## 🚀 Quick Start
+Initialize the bot with the strict configuration to bypass detection:
+
+```python
+from scraper_rotator import ZenusBot
+
+# Initialize with strict configuration
+bot = ZenusBot(
+    proxy_provider="iproyal",
+    headless=True,
+    solve_captchas=True
+)
+
+# Scrape protected content without 403s
+response = bot.get("[https://locked-site.com](https://locked-site.com)")
+
+if response.status_code == 200:
+    print("✅ Success! WAF Bypassed.")
+else:
+    print("❌ Failed.")
